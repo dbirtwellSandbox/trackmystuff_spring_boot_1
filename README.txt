@@ -27,9 +27,9 @@ dbirtwellSandbox
 …or create a new repository on the command line
 
 2)
-echo "# trackmystuff_spring_boot_1" >> README.md
+## echo "# trackmystuff_spring_boot_1" >> README.md
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git remote add origin https://github.com/dbirtwellSandbox/trackmystuff_spring_boot_1.git
 git push -u origin master
